@@ -184,19 +184,19 @@ hr {
 }
 
 .email-icon {
-  background: url(/images/contact/email.png) no-repeat;
+  background: url(../images/contact/email.png) no-repeat;
   background-size: contain;
   width: 70px;
   height: 70px;
   display: inline-block;
 }
 .email-icon:hover {
-  background: url(/images/contact/email-hover.png) no-repeat;
+  background: url(../images/contact/email-hover.png) no-repeat;
   background-size: contain;
 }
 
 .linkedin-icon {
-  background: url(/images/contact/linkedin.png) no-repeat;
+  background: url(../images/contact/linkedin.png) no-repeat;
   background-size: contain;
   width: 70px;
   height: 70px;
@@ -204,12 +204,12 @@ hr {
 }
 
 .linkedin-icon:hover {
-  background: url(/images/contact/linkedin-hover.png) no-repeat;
+  background: url(../images/contact/linkedin-hover.png) no-repeat;
   background-size: contain;
 }
 
 .github-icon {
-  background: url(/images/contact/github.png) no-repeat;
+  background: url(../images/contact/github.png) no-repeat;
   background-size: contain;
   width: 70px;
   height: 70px;
@@ -217,7 +217,7 @@ hr {
 }
 
 .github-icon:hover {
-  background: url(/images/contact/github-hover.png) no-repeat;
+  background: url(../images/contact/github-hover.png) no-repeat;
   background-size: contain;
 }
 
