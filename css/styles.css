@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Prata", serif;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 0px auto 0px auto;
+  font-size: 4.5rem;
+  color: #006d77;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: orange;
+}
+
+h3 {
+  color: #006d77;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #34cccd;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #edf6f9;
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 160px;
+}
+
+.top-container p {
+  color: lightslategray;
+  font-size: 1.3rem;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.skills {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+}
+
+.skill-row h3 {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cs-image {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.art-image {
+  margin-top: 10px;
+  width: 30%;
+  float: right;
+}
+
+.profile {
+  width: 40%;
+  margin: 0 auto;
+  padding: 75px;
+}
+
+.profile h2 {
+  margin-bottom: 0;
+}
+
+.pfp {
+  width: 35%;
+}
+
+hr {
+  border: 0;
+  border-top: 6px lightgray dotted;
+  width: 3%;
+}
+
+.contact-me {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.contact-me h3 {
+  font-weight: 300;
+}
+
+.bottom-container {
+  background-color: #006d77;
+
+  margin: 0;
+  height: 170px;
+
+  padding: 40px;
+}
+
+.bottom-container p {
+  color: #edf6f9;
+  font-size: 0.8rem;
+}
+
+.bot-icon {
+  width: 9%;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #006d77;
+  background: #ffffff;
+  padding: 6px 8px 6px 8px;
+  border: solid #006d77 1.5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 0;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  background: #ccebed;
+  text-decoration: none;
+}
+
+.typewriter {
+  display: flex;
+  justify-content: center;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3rem;
+  color: gray;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(60, end), blink-caret 0.75s step-end infinite;
+}
+
+.email-icon {
+  background: url(/images/contact/email.png) no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+.email-icon:hover {
+  background: url(/images/contact/email-hover.png) no-repeat;
+  background-size: contain;
+}
+
+.linkedin-icon {
+  background: url(/images/contact/linkedin.png) no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.linkedin-icon:hover {
+  background: url(/images/contact/linkedin-hover.png) no-repeat;
+  background-size: contain;
+}
+
+.github-icon {
+  background: url(/images/contact/github.png) no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+.github-icon:hover {
+  background: url(/images/contact/github-hover.png) no-repeat;
+  background-size: contain;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 47%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
